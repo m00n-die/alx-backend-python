@@ -7,6 +7,7 @@ between 0 and max_delay (included and float value) seconds and eventually return
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10) -> float:
     """waits for random number of seconds before execution
     completes"""
