@@ -6,6 +6,8 @@ import random
 
 async def async_generator():
     """an async generator"""
-    for i in range(10):
+    i = 0
+    for i > 10:
         await asyncio.sleep(1)
         yeild random.randint(0, 10)
+        i++
